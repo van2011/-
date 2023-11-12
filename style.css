@@ -1,0 +1,15 @@
+.kvadrat {
+width: 250px;
+background: grey;
+margin: 50px;
+}
+.buy{
+width: 250px;
+}
+.ipng{
+width: 250px;
+}
+.kvadratkvadrat{
+display: flex;
+
+}
