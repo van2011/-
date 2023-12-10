@@ -3,30 +3,28 @@ $(document).ready(function () {
     $(".userdescription").click(function () {
         $(".userdescriptiontext").toggle(1000)
     })
-
-    $.ajax("https://my-json-server.typicode.com/van2011/test/products", {
+    const idpar = new URLSearchParams(location.search).get('id');
+    $.ajax(`https://my-json-server.typicode.com/van2011/test/users/${idpar}`, {
         dataType: "json",
         data: { limit: 127 },
         success: function (result) {
-            result.forEach(e => {
-                console.log(e);
-                $('.kvadratkvadrat').append(`
 
-    <div class="kvadrat">
-    
-            <div class="ititle itext">${e.name}</div>
-            <div class="ititle itext">${sir.name}</div>
+
+            $('.kvadratkvadrat').append(`
+            <div class="kvadrat">
+            <div class="ititle itext">${result.name}</div>
+            <div class="ititle itext">${result.sirname}</div>
             <img class="ipng itext"
-                src="${e.photo_url}" />
+                src="${result.photo_url}" />
             
-            <div class="descriptiontext">${e.balance}</div>
+            <div class="descriptiontext">${result.descriptiontext}</div>
             
       
         </div>
         
         `)
-            })
         }
+
     })
 
 })
