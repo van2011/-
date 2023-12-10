@@ -34,7 +34,7 @@
         {
             "id": 2,
             "name": "Arduino UNO",
-            "description": "Brand new and high quality.",
+            "description": "Подробнее",
             "descriptiontext": "Хорошая немецкая вещь",
             "price": 180,
             "author_id": 3,
@@ -43,7 +43,7 @@
         {
             "id": 3,
             "name": "ESP8266 5V",
-            "description": "This wireless relay is based on the AI-Thinker ESP-01S WIFI module.",
+            "description": "Подробнее",
             "descriptiontext": "Хорошая немецкая вещь",
             "price": 300,
             "author_id": 2,
@@ -52,7 +52,7 @@
         {
             "id": 4,
             "name": "RGB",
-            "description": "Can make color party.",
+            "description": "Подробнее",
             "descriptiontext": "Хорошая немецкая вещь",
             "price": 92,
             "author_id": 1,
@@ -61,7 +61,7 @@
         {
             "id": 5,
             "name": "Resistor 10k Ohm",
-            "description": "Can resist the voltage. Super cool.",
+            "description": "Подробнее",
             "descriptiontext": "Хорошая немецкая вещь",
             "price": 180,
             "author_id": 3,
@@ -70,7 +70,7 @@
         {
             "id": 6,
             "name": "7-Segment Display",
-            "description": "Epic.",
+            "description": "Подробнее",
             "descriptiontext": "Хорошая немецкая вещь",
             "price": 300,
             "author_id": 2,
