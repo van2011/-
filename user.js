@@ -8,44 +8,38 @@ $(document).ready(function () {
         dataType: "json",
         data: { limit: 127 },
         success: function (result) {
-
-
             $('.kvadratkvadrat').append(`
             <div class="kvadrat">
             <div class="ititle itext">${result.name}</div>
             <div class="ititle itext">${result.sirname}</div>
             <img class="ipng itext"
                 src="${result.photo_url}" />
-            
             <div class="descriptiontext">${result.descriptiontext}</div>
             </div>
-          
-        
         `)
         }
-        
-
     })
     $.ajax(`https://my-json-server.typicode.com/van2011/test/products?author_id=${idpar}`, {
         dataType: "json",
         data: { limit: 127 },
         success: function (result) {
+            result.forEach(result => {
 
-
-            $('.kvadratkvadrat').append(`
+                $('.kub').append(`
             <div class="kvadrat">
     
             <div class="ititle itext">${result.name}</div>
             <img class="ipng itext"
                 src="${result.photo_url}" />
-            <div class="description">Подробнее</div>
+
             <div class="descriptiontext">${result.descriptiontext}</div>
         </div>
-          
-        
+                
         `)
+            });
+
         }
-        
+
 
     })
 

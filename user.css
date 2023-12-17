@@ -6,26 +6,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
-.buy {
-    width: 300px;
+.kub{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    gap: 10px;
 }
 
 .ipng {
     width: 200px;
     height: 250px;
+    margin-bottom: 10px;
 }
 
 .kvadratkvadrat {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
+    display: flex;
+    justify-content: center;
+    
 }
 
 .itext {
     display: flex;
     justify-content: center;
+    
+}
+
+.ititle{
+font-size: 20px;
+margin-bottom: 10px;
 }
 
 .title {

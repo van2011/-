@@ -18,7 +18,7 @@ $(document).ready(function () {
             <div class="ititle itext">${e.name}</div>
             <img class="ipng itext"
                 src="${e.photo_url}" />
-            <div class="description">Подробнее</div>
+            
             <div class="descriptiontext">${e.descriptiontext}</div>
             <a href = "user.html?id=${e.author_id}" class = "seller">Продавец</a>
             <button class="buy">Купить</button>
