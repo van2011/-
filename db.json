@@ -5,6 +5,7 @@
             "name": "Адольф",
             "sirname": "Гитлер",
             "photo_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bundesarchiv_Bild_183-H1216-0500-002%2C_Adolf_Hitler_Real-ESRGAN_AI_x16.png",
+            "descriptiontext": "Не дружелюбный",
             "balance": 9000
         },
         {
@@ -12,12 +13,15 @@
             "name": "Иосиф",
             "sirname": "Сталин",
             "photo_url": "https://c0.klipartz.com/pngpicture/617/641/gratis-png-stalin-thumbnail.png",
+            "descriptiontext": "Вас расстреляет",
             "balance": 200
         },
         {
             "id": 3,
-            "name": "Хирохито",
+            "name": "Император",
+            "sirname": "Хирохито",
             "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hirohito_in_dress_uniform.jpg/640px-Hirohito_in_dress_uniform.jpg",
+            "descriptiontext": "За Императора",
             "balance": 300
         }
     ],
